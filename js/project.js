@@ -7,7 +7,8 @@ function myFunction() {
     var herhaalwachtwoord = document.getElementById("herhaalwachtwoord");
     var provincie = document.getElementById("provincie");
     var postcode = document.getElementById("postcode");
-    
+    var adres = document.getElementById("adres");
+    var land = document.getElementById("land");
     var flexCheckDefault2 = document.getElementById("flexCheckDefault2");
     
 
@@ -30,7 +31,13 @@ function myFunction() {
         msg += "wachtwoord is vereist \n";
       }
       if(!herhaalwachtwoord.value) { // or checked
-        msg += "herhaalwachtwoord is vereist \n";
+        msg += "herhaal wachtwoord is vereist \n";
+      }
+      if(!adres.value) { // or checked
+        msg += "adres is vereist \n";
+      }
+      if(!land.value) { // or checked
+        msg += "land is vereist \n";
       }
       if(!provincie.value) { // or checked
         msg += "provincie is vereist \n";
