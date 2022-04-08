@@ -7,13 +7,9 @@ function myFunction() {
     var herhaalwachtwoord = document.getElementById("herhaalwachtwoord");
     var provincie = document.getElementById("provincie");
     var postcode = document.getElementById("postcode");
-    var flexCheckDefault1 = document.getElementById("flexCheckDefault1");
+    
     var flexCheckDefault2 = document.getElementById("flexCheckDefault2");
-    var flexRadioDefault1 = document.getElementById("flexRadioDefault1");
-    var flexRadioDefault2 = document.getElementById("flexRadioDefault2");
-    var flexRadioDefault3 = document.getElementById("flexRadioDefault3");
-    var flexRadioDefault4 = document.getElementById("flexRadioDefault4");
-
+    
 
     
     let msg="";  
@@ -28,7 +24,7 @@ function myFunction() {
         msg += "gebruikersnaam is vereist \n";
       }
       if(!exampleInputEmail1.value) { // or checked
-        msg += "exampleInputEmail1 is vereist \n";
+        msg += "Email is vereist, moet gebruik maken van een @ \n";
       }
       if(!wachtwoord.value) { // or checked
         msg += "wachtwoord is vereist \n";
