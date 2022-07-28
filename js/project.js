@@ -45,6 +45,7 @@ function validateForm(){
     }
     document.getElementById('foutmeldingen').innerHTML = messages
     ErrorMessages = []
+    // search term: how to do form validation on YT
     // https://www.youtube.com/watch?v=In0nB0ABaUk&t
 }
 
@@ -75,6 +76,7 @@ function validateForm(){
     function valideerBetaling(VELD){
         const radioButtons = document.getElementsByName(VELD);
         let selectedbetaalmethode;
+    // search term: javascript radio button check if checked
     //https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/
         for (const radioButton of radioButtons) {
         if (radioButton.checked) {selectedbetaalmethode = radioButton.value;break;}
